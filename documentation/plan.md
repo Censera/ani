@@ -8,7 +8,7 @@ Establish the crate, explicit errors, LLVM context ownership, module ownership, 
 
 ## Types
 
-Add only the LLVM types required by Astery v26:
+Add only the LLVM types required by astry v26:
 
 - Void.
 - Integer.
@@ -19,7 +19,7 @@ Add only the LLVM types required by Astery v26:
 - Struct.
 - Function.
 
-The mapping from Astery language types to LLVM types belongs here only where code generation requires it.
+The mapping from astry language types to LLVM types belongs here only where code generation requires it.
 
 ## Values
 
@@ -48,14 +48,14 @@ Each operation becomes a separate TODO item and follows the workflow from select
 
 ## Targets
 
-Define and implement only the target support Astery actually requires:
+Define and implement only the target support astry actually requires:
 
 - Target initialization.
 - Target machine support.
 - Object emission.
 
-## Astery backend
+## astry backend
 
-Use `an-inkwell` from real Astery backend code only after the required library surface has been implemented and exercised independently.
+Use `an-inkwell` from real astry backend code only after the required library surface has been implemented and exercised independently.
 
 The plan is deliberately sequential. A later requirement is evidence for a needed capability, not permission to implement its abstractions early.

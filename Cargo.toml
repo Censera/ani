@@ -2,7 +2,7 @@
 name = "an-inkwell"
 version = "26.0.0"
 edition = "2024"
-description = "Astery's Narrower Inkwell"
+description = "astry's Narrower Inkwell"
 repository = "https://github.com/Censera/an-inkwell"
 documentation = "https://docs.rs/an-inkwell"
 readme = "README.md"

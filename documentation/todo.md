@@ -52,16 +52,16 @@ The workflow requires taking the first unchecked item and completing it before a
 
 ## Targets
 
-- [x] Define target support required by Astery.
+- [x] Define target support required by astry.
 - [x] Add target initialization.
 - [x] Add target machine support.
 - [x] Add object emission.
 
-## Astery
+## astry
 
-- [ ] Integrate the first real Astery backend path.
-- [ ] Remove the corresponding direct Inkwell dependency from Astery.
-- [ ] Keep `an-inkwell` independent from Astery's compiler internals.
+- [ ] Integrate the first real astry backend path.
+- [ ] Remove the corresponding direct Inkwell dependency from astry.
+- [ ] Keep `an-inkwell` independent from astry's compiler internals.
 
 ## Completion rule
 
