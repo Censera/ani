@@ -1,8 +1,8 @@
-# an-inkwell
+# ani
 
-astry's Narrower Inkwell
+Astry's Narrower [Inkwell](https://github.com/TheDan64/inkwell)
 
-`an-inkwell` is a standalone Rust library for LLVM interaction with a deliberately narrower scope than [inkwell](https://github.com/TheDan64/inkwell). It is intended to give astry a small, explicit LLVM interface without making astry depend on Inkwell's full API surface.
+`ani` is a standalone Rust library for LLVM interaction with a deliberately narrower scope than [inkwell](https://github.com/TheDan64/inkwell). It is intended to give astry a small, explicit LLVM interface without making astry depend on Inkwell's full API surface.
 
 The library is published independently and developed as its own crate.
 
