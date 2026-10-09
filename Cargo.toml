@@ -1,8 +1,8 @@
 [package]
-name = "ani"
+name = "anilib"
 version = "26.0.0"
 edition = "2024"
-description = "Astry's Narrower Inkwell"
+description = "Astry's Narrower Inkwell Library"
 repository = "https://github.com/Censera/ani"
 documentation = "https://docs.rs/ani"
 readme = "README.md"
@@ -11,7 +11,7 @@ keywords = ["llvm", "compiler", "codegen"]
 categories = ["development-tools::ffi"]
 
 [lib]
-name = "anicodegen"
+name = "anilib"
 path = "src/lib.rs"
 
 [dependencies]

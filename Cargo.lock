@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "ani"
+name = "anilib"
 version = "26.0.0"
 dependencies = [
  "llvm-sys",
